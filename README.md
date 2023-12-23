@@ -8,6 +8,7 @@
 
 # Contents
 
+- [asdf-mirrord](#asdf-mirrord--)
 - [Dependencies](#dependencies)
 - [Install](#install)
 - [Contributing](#contributing)
@@ -15,10 +16,8 @@
 
 # Dependencies
 
-**TODO: adapt this section**
-
 - `bash`, `curl`, `tar`, and [POSIX utilities](https://pubs.opengroup.org/onlinepubs/9699919799/idx/utilities.html).
-- `SOME_ENV_VAR`: set this environment variable in your shell config to load the correct version of tool x.
+- mirrord has OS specific binaries and are downloaded on the basis `OSTYPE` for determining the OS and `uname` for the architecture.
 
 # Install
 
@@ -57,4 +56,4 @@ Contributions of any kind welcome! See the [contributing guide](contributing.md)
 
 # License
 
-See [LICENSE](LICENSE) © [Mehul](https://github.com/infiniteregrets/)
+See [LICENSE](LICENSE) © [MetalBear](https://github.com/metalbear-co/)
